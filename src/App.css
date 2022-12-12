@@ -4,9 +4,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 .App {
   text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  width: 90%;
 }
 
+/* NavComponent */
+.nav {
+  padding-top: 44px;
+}
+.nav-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desktop-menu {
+  display: none;
+}
+.mobile-menu {
+  display: block;
+}
