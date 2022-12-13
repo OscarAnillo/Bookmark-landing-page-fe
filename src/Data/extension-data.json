@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "logo":"images/logo-chrome.svg",
+        "title":"Add to Chrome",
+        "version":"Minimum version 62"
+    },
+    {
+        "id":2,
+        "logo":"images/logo-firefox.svg",
+        "title":"Add to Firefox",
+        "version":"Minimum version 55"
+    },
+    {
+        "id":3,
+        "logo":"images/logo-opera.svg",
+        "title":"Add to Opera",
+        "version":"Minimum version 46"
+    }
+]

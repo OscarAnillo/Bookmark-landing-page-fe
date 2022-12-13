@@ -38,7 +38,9 @@ export const FeaturesComponents = () => {
       </div>
       <div className="flex-features">
         <div className="blue-shape-features"></div>
-        <img src={image} alt="" className="image-features" />
+        <div>
+          <img src={image} alt="" className="image-features" />
+        </div>
         <div>
           <h2 className="title-features">{title}</h2>
           <p className="paragraph-features">{paragraph}</p>

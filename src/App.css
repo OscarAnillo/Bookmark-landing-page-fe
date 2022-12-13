@@ -48,7 +48,7 @@ img {
   border-bottom-left-radius: 100px;
   height: 200px;
   position: absolute;
-  top: 13%;
+  top: 10%;
   right: -30px;
   width: 90%;
   z-index: -1;
@@ -57,7 +57,7 @@ img {
   color: rgb(47, 51, 86);
   font-weight: 500;
   line-height: 40px;
-  margin-top: 55px;
+  margin-top: 45px;
   margin-bottom: 28px;
 }
 .hero-paragraph {
@@ -106,7 +106,7 @@ img {
 }
 .map-div-features {
   border-top: 1px solid #eee;
-  padding: 1.56em 0;
+  padding: 1.3em 0;
 }
 .map-div-features:nth-child(3) {
   border-bottom: 1px solid #eee;
@@ -116,15 +116,15 @@ img {
   position: relative;
 }
 .image-features {
-  height: 215px;
+  height: 250px;
   width: 100%;
 }
 .blue-shape-features {
   background-color: rgb(79, 100, 217); 
   border-bottom-right-radius: 100px;
-  height: 220px;
+  height: 230px;
   position: absolute;
-  top: 9%;
+  top: 10%;
   left: -30px;
   width: 90%;
   z-index: -1;
@@ -144,4 +144,54 @@ img {
 }
 .features-btn {
   display: none;
+}
+
+/* ExtensionComponent */
+.extension-section {
+  margin-top: 150px;
+}
+.extension-title {
+  color: rgb(47, 51, 86);
+  margin-bottom: 1em;
+}
+.extension-paragraph {
+  color: rgb(191, 192, 197);
+  line-height: 25px;
+  margin: 0 auto;
+  width: 90%;
+}
+.extension-div {
+  margin-top: 3em;
+}
+.extension-map-div {
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px rgb(228, 231, 245);
+  margin: 3em auto;
+  width: 80%;
+  padding-bottom: 1.6em;
+}
+.extension-map-div img {
+  padding: 2.5em 0 2em 0;
+}
+.extension-div h2 {
+  color: rgb(47, 51, 86);
+  padding-bottom: .5em;
+}
+.extension-div p {
+  color: rgb(191, 192, 197);
+  padding-bottom: 2em;
+}
+.extension-div .border-div {
+  border: none;
+  border-top: 5px dotted rgb(213, 214, 216);
+  padding-bottom: 1em;
+}
+.extension-btn {
+  background-color: rgb(79, 100, 217);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  padding: 1.3em 3em;
 }
