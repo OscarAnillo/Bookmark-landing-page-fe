@@ -2,6 +2,7 @@ import { NavComponent } from "./Components/nav-component";
 import { HeroComponent } from "./Components/hero-component";
 import { FeaturesComponents } from "./Components/features-components";
 import { ExtensionComponent } from "./Components/extension-component";
+import { FAQComponent } from "./Components/faq-component";
 
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
         <HeroComponent />
         <FeaturesComponents />
         <ExtensionComponent />
+        <FAQComponent />
       </div>
     </div>
   );

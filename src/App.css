@@ -195,3 +195,60 @@ img {
   font-weight: 500;
   padding: 1.3em 3em;
 }
+.acc-section {
+  margin-top: 140px;
+}
+.acc-section-title {
+  color: rgb(47, 51, 86);
+  margin: 0 auto 1em auto;
+  width: 80%;
+}
+.acc-section-paragraph {
+  color: rgb(191, 192, 197);
+  line-height: 25px;
+  width: 90%;
+}
+.accordion {
+  display: block;
+  margin-top: 75px;
+}
+.test {
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5em 0;
+  width: 100%;
+}
+.acc-title {
+  color: rgb(47, 51, 86);
+  font-weight: 500;
+}
+.acc-text {
+  color: rgb(191, 192, 197);
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  padding: 1em 0;
+}
+.acc-btn {
+  background-color: rgb(79, 100, 217);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-top: 50px;
+  padding: 1em 2em;
+}
+.content {
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.content.show {
+  max-height: 190px;
+  transition: 0.3s;
+}
