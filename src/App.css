@@ -237,6 +237,7 @@ img {
   border-radius: 5px;
   color: #fff;
   font-family: "Rubik", sans-serif;
+  font-size: 1rem;
   font-weight: 500;
   margin-top: 50px;
   padding: 1em 2em;
@@ -251,4 +252,78 @@ img {
 .content.show {
   max-height: 190px;
   transition: 0.3s;
+}
+
+/* ContactComponent */
+.contact-div {
+  background-color: rgb(83, 102, 223);
+  color: #fff;
+  margin-top: 120px;
+  padding: 4em 1em 2em 1em;
+}
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+.contact-paragraph {
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+.contact-title {
+  padding-bottom: 1em;
+}
+.contact-div form input {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1.3em;
+  width: 100%;
+  padding: 1em;
+}
+.contact-div form input::placeholder {
+  color: rgb(191, 192, 197);
+  font-family: "Rubik", sans-serif;
+  font-size: .85rem;
+  font-weight: 400;
+}
+.contact-div form button {
+  background-color: rgb(251, 88, 89);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: .85rem;
+  font-weight: 500;
+  width: 100%;
+  padding: 1em;
+}
+
+/* FooterComponent */
+.footer {
+  background-color: rgb(47, 51, 86);
+  padding: 3em 0 2em 0;
+}
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+.footer-logo {
+  filter: invert(100%)contrast(200%) hue-rotate(180deg);
+  padding-bottom: 2em;
+}
+.footer-container ul li {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+.socials {
+  margin: 1em 0;
+}
+.socials img {
+  padding: 0 1.5em;
 }
