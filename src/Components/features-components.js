@@ -9,6 +9,7 @@ export const FeaturesComponents = () => {
   });
 
   const { image, title, paragraph } = firstTabInfo;
+
   return (
     <section className="features">
       <h1 className="features-title">Features</h1>
