@@ -24,10 +24,16 @@ export const FAQComponent = () => {
           <div key={item.id} onClick={() => clickHandler(i)}>
             <div className="test">
               <p className="acc-title">{item.title}</p>
-              <img src="images/icon-arrow.svg" alt="" />
+              {selectedItem === i ? (
+                <img src="images/icon-arrow.svg" alt="" className="turn" />
+              ) : (
+                <img src="images/icon-arrow.svg" alt="" />
+              )}
             </div>
             <div
-              className={`${selectedItem === i ? "content show" : "content"}`}
+              className={`${
+                selectedItem === i ? "content show" : "content img-turn"
+              }`}
             >
               <p className="acc-text">{item.text}</p>
             </div>
