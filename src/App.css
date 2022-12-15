@@ -153,7 +153,12 @@ img {
 }
 .map-div-features {
   border-top: 1px solid #eee;
-  padding: 1.3em 0;
+}
+.map-div-features ul li {
+  padding: 1.3em;
+}
+.map-div-features ul li:hover {
+  border-bottom: 3px solid red;
 }
 .map-div-features:nth-child(3) {
   border-bottom: 1px solid #eee;
