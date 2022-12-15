@@ -8,9 +8,9 @@ export const NavComponent = ({ showMobileMenu, setShowMobileMenu }) => {
         <div className="desktop-menu">
           <ul>
             <li>Features</li>
-            <li>Procing</li>
+            <li>Pricing</li>
             <li>Contact</li>
-            <li>Login</li>
+            <li className="desktop-menu-login">Login</li>
           </ul>
         </div>
         <div className="mobile-menu">

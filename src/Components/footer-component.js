@@ -5,6 +5,11 @@ export const FooterComponent = () => {
         <div>
           <img src="images/logo-bookmark.svg" alt="" className="footer-logo" />
           <ul>
+            <img
+              src="images/logo-bookmark.svg"
+              alt=""
+              className="footer-logo-ul"
+            />
             <li>features</li>
             <li>Pricing</li>
             <li>Contact</li>
