@@ -3,7 +3,7 @@ export const HeroComponent = () => {
     <div className="hero">
       <div className="blue-shape"></div>
       <div>
-        <img src="images/illustration-hero.svg" alt="" />
+        <img src="images/illustration-hero.svg" alt="" className="img-hero" />
       </div>
       <div>
         <h1 className="hero-title">A Simple Bookmark Manager</h1>
